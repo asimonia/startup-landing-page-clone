@@ -36,6 +36,7 @@ html {
 	z-index: 9999;
 }
 
+/* margin: 0 auto; will always make the content centered */
 .top-navigation > .content {
 	width: 60rem;
 	height: 4.375rem;
@@ -43,6 +44,8 @@ html {
 	padding: 0rem 1rem;
 }
 
+/* float: to make the links hover right in an unordered list */
+/* display: to make the list of navigation words display in a row */
 .top-navigation .links {
 	float: right;
 	display: inline-block;
@@ -50,7 +53,7 @@ html {
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
-	-webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;	
 }
 
 .top-navigation .links li {
