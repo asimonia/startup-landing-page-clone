@@ -6,6 +6,21 @@ html {
 	box-sizing: inherit;
 }
 
+.cases h2 {
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
+	font-weight: 300;
+}
+
+.cases .devices {
+	width: 33.3333333%;
+	display: inline-block;
+	/* styles to assist with debugging */
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
+}
+
 .introduction {
 	background-image: url('../images/first-background.jpg');
 	background-position: center bottom;
@@ -16,6 +31,9 @@ html {
 
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-navigation > .content {
